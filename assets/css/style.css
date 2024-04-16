@@ -38,20 +38,30 @@
 
 nav a {
     margin: 0;
-    background-color: #D3D3D3;
+    background-color: #F3F3F3;
     padding: 5px;
     width: 32%;
     text-align: center;
     float: left;
-    border: 1px solid white;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    text-decoration: none;
+    height: 2rem;
 }
 
 /* active page link */
 .active-page {
-    width: 36%;  /* slightly larger and ensures 100% coverage*/
-    background-color: darkgreen;
+    width: 36%; /* slightly larger and ensures 100% coverage*/
+    background-color: #D3D3D3;
+    color: #333333;
+}
+
+nav a:hover{
+    background-color: grey;
     color: whitesmoke;
 }
+
+
 
 /* Footer */
 footer {
