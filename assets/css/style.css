@@ -20,6 +20,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */
 
 /* Main Logo*/
@@ -50,7 +54,6 @@ nav a {
     width: 32%;
     text-align: center;
     float: left;
-    text-decoration: none;
     font-size: 1rem;
     padding: 10px;
 }
@@ -70,9 +73,35 @@ nav a:hover{
 
 
 /* Footer */
-footer {
-    background-color: yellow;
+.footer-contact {
+    background: url("../images/footer-image-p.png")no-repeat left center/cover;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 210px;
 }
+
+.footer-contact div {
+    width: 30%;
+    background-color: rgb(38, 38, 38, 0.2);
+    height: 80px;
+    margin-right: 12px;
+    text-align: center;
+    min-width:140px;
+    order: 99;
+
+}
+
+.footer-contact a {
+    padding: 3px;
+    color: black;
+    font-size: 10px;
+        
+}
+
+
     
 
 
