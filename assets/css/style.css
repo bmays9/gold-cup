@@ -288,7 +288,14 @@ nav a {
         margin-bottom: 10px;
 }
 
-}
+
+/* Video section */
+
+.video-content { /* covers the text and the video combined */
+        
+        flex-direction: row;
+        
+    }
 
 
 /* Media Query: tablets and larger 769px and upwards*/
