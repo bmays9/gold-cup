@@ -31,6 +31,7 @@ figcaption {
     display: none;
 }
 
+
 /* anchors */
 a {
     text-decoration: none;
@@ -93,6 +94,7 @@ main {
 
 /* Year Headers */
 .year {
+    /* XXXX Remember to delete unwanted images*/
     background-image: linear-gradient(to right, #00b09b, #96c93d);
     background-image: linear-gradient(to right, #2c3e50, #4ca1af);
     background-image: linear-gradient(to right, #2c7744, #5a3f37);
@@ -140,7 +142,59 @@ main {
     object-fit: contain;
 }
 
+/* Race Results*/
 
+.race-details {
+    padding: 6px 4px 30px;    /* spacing between race details section and year above, and places below */
+}
+
+#race-info {
+    padding: 6px 4px 15px;
+}
+
+/* First 3 Horses*/
+#places {
+    width: 100%;
+    padding: 0px 5px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    justify-content: space-evenly;
+}
+
+/* Names of horses that are placed */
+#places h4 {
+    font-size: 110%;
+}
+
+.winner {
+    order: 2;
+    align-self: flex-start;
+    text-align: center;
+}
+.winner i {
+    color: gold;
+    font-size: 24px;
+}
+
+.second-place {
+    order: 1;
+    align-self: flex-end; /* push to bottom of the div*/
+    text-align: right;
+}
+.third-place {
+    order: 3;
+    align-self: flex-end; /* push to bottom of the div*/
+    text-align: left;
+}
+
+/* Results Table */
+
+/* Hide Dist column on smallest screens */
+.rest-of-result tr > *:nth-child(3) {
+    display: none;
+}
 
 /* Footer */
 .footer-contact {
