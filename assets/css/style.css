@@ -158,6 +158,14 @@ main {
 }
 
 
+/* Media Query: mobile phones and larger - 476px and upwards*/
+@media screen and (min-width: 476px) {
+
+#race-features li {
+        margin-bottom: 7px;
+}
+
+}
 
 
 
@@ -165,10 +173,15 @@ main {
 @media screen and (min-width: 576px) {
 
 
+
+/* Nav bar links*/
 nav a {
         font-size: 1rem;
 }
 
+#race-features li {
+        margin-bottom: 10px;
+}
 
 }
 
@@ -179,5 +192,11 @@ nav a {
     .footer-contact {
         height: 140px;
     }
+
+
+#race-features li {
+        margin-bottom: 20px;
+        font-size: 20px;
+}
 }
 
