@@ -27,7 +27,9 @@ body {
     
 }
 
-
+figcaption {
+    display: none;
+}
 
 /* anchors */
 a {
@@ -95,17 +97,33 @@ main {
 #about-section {
     display: flex;
     width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 /* Race Features */
 #race-features {
+    width: 40%;
     
-       
+}
+
+/* Race Features List */
+
+#race-features li {
+        list-style: none;
+        margin-bottom: 4px;
 }
 
 /* Image in the About Section*/
-#about-image {
 
+#about-image {
+    width:50%;
+}
+
+#about-image img {
+    width: 100%;
+    object-fit: contain;
 }
 
 
