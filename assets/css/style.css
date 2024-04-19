@@ -21,6 +21,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+p {
+    font-size: 13px;
+}
+
 .page-subheading {
     padding: 35px 2px;
     text-align: center;
