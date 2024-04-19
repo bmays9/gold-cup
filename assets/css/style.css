@@ -215,12 +215,15 @@ main {
 /* Video content */
 
 
-.video-content {
+.video-content {                /* covers the text and the video combined */
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 10px 25px 10px;
 }
 
+.video-content > p {            /* padding between description text and video */
+    padding-bottom: 10px;
+}
 
 
 /* Footer */
