@@ -16,6 +16,7 @@ h1, h2 , h3 {
 
 }
 
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -231,6 +232,22 @@ main {
     color: black;
     font-size: 10px;
         
+}
+
+/* Video Page*/
+
+/* Video content */
+
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
 }
 
 
