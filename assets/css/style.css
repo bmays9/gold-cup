@@ -32,6 +32,10 @@ figcaption {
 }
 
 
+th, td {
+    padding: 0px 3px 5px; /* left , right and bottom padding for table cells */
+}
+
 /* anchors */
 a {
     text-decoration: none;
@@ -189,6 +193,10 @@ main {
     text-align: left;
 }
 
+.rest-of-result {
+    margin: 0 auto;
+}
+
 /* Results Table */
 
 /* Hide Dist column on smallest screens */
@@ -231,6 +239,11 @@ main {
 
 #race-features li {
         margin-bottom: 7px;
+}
+
+/* Displaying table column Dist that is hidden on smaller screen*/
+.rest-of-result tr > *:nth-child(3) {
+        display: table-cell;
 }
 
 }
