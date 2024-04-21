@@ -58,17 +58,81 @@
         <div id="prize-offer">
             <p>To celebrate the launch of our new website we are giving away two pairs of tickets to Cheltenham Gold Cup day 2025!</p>
             <br>
-            <p>All you have to do to enter our free draw is to submit the completed form below!</p>
+            <p>All you have to do to enter our free draw is to submit the completed form below.</p>
             <br>
-            <p>Prize winners will be announced on 10th January 2025</p>
+            <p>Prize winners will be announced on 10th January 2025.</p>
         </div>
 
         <!-- Form section for competion entry -->
         <section id="enter-competition">
-            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">       <!-- action address taken from CodeInstitute Love Running walkthrough-->
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <!-- action address taken from CodeInstitute Love Running walkthrough-->
 
+                <h3>Complete and submit the form below to enter.</h3>
+                <br>
+                <p class="small-text-note">* indicates mandatory field</p>
 
+                <!-- Name Inputs validation:
+    required
+    minimum 2 characters on last name so input of only one letter is not permitted.
+    maximum of 20 characters name fields to limit field size required to process -->
 
+                <label for="first-name">First Name:</label>
+                <input name="first-name" id="first-name" type="text" class="input-text" required maxlength="20">*
+                <br>
+                <label for="last-name">Last Name:</label>
+                <input name="last-name" id="last-name" type="text" class="input-text" required minlength="2" maxlength="20">*
+                <br>
+                <!-- Email input Validation:
+     required
+    Minimum of 5 characters and email format-->
+                <label for="first-name">E-mail Address:</label>
+                <input name="email" id="email" type="email" class="input-text" required minlength="5">*
+                <br>
+
+                <!-- Phone number input Validation:
+    Minimum of 8 characters -->
+                <label for="phone">Phone Number:</label>
+                <input name="phone" id="phone" type="text" class="input-text" minlength="8">
+                <br>
+
+                <!-- Attendance input Validation:
+    required -->
+
+                <label for="attendance">How many times did you attend a racecourse in the past 12 months?</label>
+                <select id="attendance" name="attendance" required>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5-10">5-9</option>
+                    <option value="10+">10+</option>
+                </select>*
+                <br />
+                <p>Which betting sites do you use?</p>
+                <input type="checkbox" id="bet365" name="betting-firms" value="bet365">
+                <label id="bet365">Bet 365</label>
+                <br>
+                <input type="checkbox" id="paddy" name="betting-firms" value="paddypower">
+                <label id="paddy">Paddy Power</label>
+                <br>
+                <input type="checkbox" id="sky" name="betting-firms" value="skybet">
+                <label id="sky">Sky Bet</label>
+                <br>
+                <input type="checkbox" id="betfair" name="betting-firms" value="betfair">
+                <label id="betfair">Betfair</label>
+                <br>
+                <input type="checkbox" id="coral" name="betting-firms" value="coral">
+                <label id="coral">Coral</label>
+                <br>
+
+                <!-- Other option no validation -->
+
+                <label for="other-bet">Other - please specify</label>
+                <input name="other-bet" id="other-bet" type="text" class="input-text">
+                <br>
+                <button type="submit">Submit Entry</button>
             </form>
         </section>
 
