@@ -11,7 +11,7 @@
 
 /* General Styles */
 
-h1, h2 , h3 {
+h1, h2 , h3, h4 {
     font-family: Kanit, sans-serif;
 
 }
@@ -224,6 +224,27 @@ main {
 .video-content > p {            /* padding between description text and video */
     padding-bottom: 10px;
 }
+
+
+
+/* Win Tickets Page*/
+
+/* Class applied to stand alone blocks of text*/
+
+.side-padding {
+    padding: 0 5px;
+}
+
+.block-of-text p {
+    
+    font-size: 14px;
+}
+
+.small-text-note {
+    font-size: small;
+}
+
+
 
 
 /* Footer */
