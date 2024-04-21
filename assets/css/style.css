@@ -242,9 +242,16 @@ main {
 
 .small-text-note {
     font-size: small;
+    padding-bottom: 4px;
 }
 
+.align-right {
+    text-align: right;
+}
 
+#enter-competition {
+    background-color: rgb(64, 130, 109, 0.6);
+}
 
 
 /* Footer */
