@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .page-subheading {
@@ -173,6 +173,10 @@ main {
 /* Names of horses that are placed */
 #places h4 {
     font-size: 110%;
+}
+
+#places p {
+    font-size: 13px;
 }
 
 .winner {
