@@ -55,16 +55,17 @@
         </div>
         
         <!-- Description of the competition and prizes on offer -->
-        <div class="block-of-text">
+        <div class="block-of-text side-padding" >
             <p>To celebrate the launch of our new website we are giving away two pairs of tickets to Cheltenham Gold Cup day 2025!</p>
             <br>
             <p>All you have to do to enter our free draw is to submit the completed form below.</p>
             <br>
             <p>Prize winners will be announced on 10th January 2025.</p>
+            <br>
         </div>
 
         <!-- Form section for competion entry -->
-        <section id="enter-competition">
+        <section id="enter-competition" class="side-padding">
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
                 <!-- action address taken from CodeInstitute Love Running walkthrough-->
 
@@ -84,14 +85,16 @@
                 <input name="last-name" id="last-name" type="text" class="input-text" required minlength="2" maxlength="20">*
                 <br>
                 <!-- Email input Validation:
-     required
+    required
     Minimum of 5 characters and email format-->
+
                 <label for="first-name">E-mail Address:</label>
                 <input name="email" id="email" type="email" class="input-text" required minlength="5">*
                 <br>
 
                 <!-- Phone number input Validation:
     Minimum of 8 characters -->
+
                 <label for="phone">Phone Number:</label>
                 <input name="phone" id="phone" type="text" class="input-text" minlength="8">
                 <br>
@@ -110,6 +113,9 @@
                     <option value="10+">10+</option>
                 </select>*
                 <br />
+
+                <!-- Checkboxes for betting sites 
+                    -->
                 <p>Which betting sites do you use?</p>
                 <input type="checkbox" id="bet365" name="bet365" value="yes">
                 <label id="bet365">Bet 365</label>
