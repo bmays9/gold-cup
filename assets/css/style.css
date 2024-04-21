@@ -280,6 +280,15 @@ main {
     
 }
 
+/* Submit Button*/
+#submit-entry-button {
+    padding: 8px 20px;
+    background-color: rgb(111, 78, 55, 0.9);
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
 /* Footer */
 .footer-contact {
     background: url("../images/footer-left-j.jpg")no-repeat left center/cover;
