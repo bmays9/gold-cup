@@ -279,30 +279,34 @@ main {
 
 
 
-/* Nav bar links*/
-nav a {
+    /* Nav bar links*/
+    nav a {
         font-size: 1rem;
-}
+    }
 
-#race-features li {
+    #race-features li {
         margin-bottom: 10px;
-}
+    }
 
 
-/* Video section */
+    /* Video section */
 
-.video-content { /* covers the text and the video combined */
-        
+    .video-content { /* covers the text and the video combined */
+
         flex-direction: row;
         justify-content: center;
-        
- }
+    }
 
-.video-content > p { /* padding between description text and video */
+    .video-content > p { /* padding between description text and video */
         padding-bottom: 20px;
         padding-right: 20px;
         width: 190px;
         font-size: 15px;
+    }
+
+    .video-content > iframe {
+        padding-left: 20px;
+    }
 }
 
 
