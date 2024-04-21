@@ -370,6 +370,8 @@ main {
 
     .video-content > iframe {
         padding-left: 20px;
+        width: 420px;               /* making video iframe bigger when space allows */
+        height: 225px;
     }
 }
 
