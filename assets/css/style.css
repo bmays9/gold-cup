@@ -14,7 +14,6 @@ h1, h2 , h3, h4 {
 
 }
 
-
 body {
     font-family: Roboto, sans-serif;
 }
@@ -60,18 +59,17 @@ a {
 }
 
 /* Nav Bar container */
-#nav-bar {
+nav {
     width: 100%;
-    height: auto;
     min-width: 210px;
-    
+    height: 34px;
+    background-color: #F3F3F3;
 }
 
 /* Nav Bar Links  */
 
 nav a {
-    background-color: #F3F3F3;
-    width: 32%;
+    width: 33%;
     text-align: center;
     float: left;
     font-size: 0.7rem;
@@ -80,7 +78,7 @@ nav a {
 
 /* active page link */
 .active-page {
-    width: 36%; /* slightly larger and ensures 100% coverage*/
+    width: 34%; /* slightly larger and ensures 100% coverage*/
     background-color: rgb(64, 130, 109);
     color: whitesmoke;
 }
