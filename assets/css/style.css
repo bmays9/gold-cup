@@ -7,8 +7,6 @@
     box-sizing: border-box;
 }
 
-
-
 /* General Styles */
 
 h1, h2 , h3, h4 {
@@ -209,7 +207,6 @@ main {
     display: none;
 }
 
-
 /* Video Page*/
 
 /* Video content */
@@ -224,7 +221,6 @@ main {
 .video-content > p {            /* padding between description text and video */
     padding-bottom: 10px;
 }
-
 
 
 /* Win Tickets Page*/
@@ -249,10 +245,27 @@ main {
     text-align: right;
 }
 
+.input-text {                   /* For text input boxes on form */
+    height: 1.3rem;
+    border-radius: 3px;
+    border: 1pt solid rgb(111, 78, 55);
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    padding: 1px 4px;
+}
+
+.select-text {                  /* For select (dropdown) input boxes on form */
+    height: 1.3rem;
+    border-radius: 3px;
+    border: 1pt solid rgb(111, 78, 55);
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    padding: 1px 4px;
+}
+
 #enter-competition {
     background-color: rgb(64, 130, 109, 0.6);
 }
-
 
 /* Footer */
 .footer-contact {
@@ -284,8 +297,6 @@ main {
 }
 
 
-
-
 /* Media Query: mobile phones and larger - 476px and upwards*/
 @media screen and (min-width: 476px) {
 
@@ -301,11 +312,8 @@ main {
 }
 
 
-
 /* Media Query: landscape phones and larger 576px and upwards*/
 @media screen and (min-width: 576px) {
-
-
 
     /* Nav bar links*/
     nav a {
@@ -315,7 +323,6 @@ main {
     #race-features li {
         margin-bottom: 10px;
     }
-
 
     /* Video section */
 
@@ -345,10 +352,10 @@ main {
         height: 140px;
     }
 
-
 #race-features li {
         margin-bottom: 20px;
         font-size: 20px;
 }
+
 }
 
