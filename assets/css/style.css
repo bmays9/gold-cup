@@ -194,11 +194,22 @@ main {
     align-self: flex-end; /* push to bottom of the div*/
     text-align: right;
 }
+
+.second-place i {
+    color: silver;      /* Silver colour to indicate 3rd place */
+}
+
 .third-place {
     order: 3;
     align-self: flex-end; /* push to bottom of the div*/
     text-align: left;
 }
+
+.third-place i {
+    color: saddlebrown;  /* Bronze colour to indicate 3rd place */
+}
+
+
 
 .rest-of-result {
     margin: 0 auto;
