@@ -326,10 +326,6 @@ main {
         margin-bottom: 7px;
 }
 
-/* Displaying table column Dist that is hidden on smaller screen*/
-.rest-of-result tr > *:nth-child(3) {
-        display: table-cell;
-}
 
 }
 
@@ -344,6 +340,17 @@ main {
 
     #race-features li {
         margin-bottom: 10px;
+    }
+
+    /* Displaying table column Dist that is hidden on smaller screen*/
+    /* Code taken and adjusted from https://stackoverflow.com/questions/5440657/how-to-hide-columns-in-html-table */
+    .rest-of-result tr > *:nth-child(3) {
+        display: table-cell;
+    }
+
+    /* Adding more left, right padding in table  */
+    th, td {
+        padding: 0px 7px 5px;
     }
 
     /* Video section */
