@@ -61,15 +61,13 @@
         <section id="enter-competition" class="side-padding">
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
                 <!-- action address taken from CodeInstitute Love Running walkthrough-->
-
                 <h4 class="align-center">Submit the form below to enter.</h4>
                 <br>
                 <p class="small-text-note align-right">* indicates mandatory field</p>
-
-                <!-- Name Inputs validation:
-        required
-        minimum 2 characters on last name so input of only one letter is not permitted.
-        maximum of 20 characters name fields to limit field size required to process -->
+                
+                <!-- Name Inputs validation:        required -->
+                <!-- minimum 2 characters on last name so input of only one letter is not permitted.    -->
+                <!-- maximum of 20 characters name fields to limit field size required to process       -->
                 <div class="align-right">
                     <label for="first-name">* First Name:</label>
                     <input name="first-name" id="first-name" type="text" class="input-text" required maxlength="20">
@@ -77,23 +75,19 @@
                     <label for="last-name">* Last Name:</label>
                     <input name="last-name" id="last-name" type="text" class="input-text" required minlength="2" maxlength="20">
                     <br>
-                    <!-- Email input Validation:
-        required
-        Minimum of 5 characters and email format-->
+                    <!-- Email input Validation:        required        Minimum of 5 characters and email format-->
 
                     <label for="first-name">* E-mail Address:</label>
                     <input name="email" id="email" type="email" class="input-text" required minlength="5">
                     <br>
 
-                    <!-- Phone number input Validation:
-        Minimum of 8 characters -->
+                    <!-- Phone number input Validation:        Minimum of 8 characters -->
 
                     <label for="phone">Phone Number:</label>
                     <input name="phone" id="phone" type="text" class="input-text" minlength="8">
                     <br>
                
-                <!-- Attendance input Validation:
-    required -->
+                <!-- Attendance input Validation:    required -->
 
                 <label for="attendance">* How many times did you attend a racecourse in the past 12 months?</label>
                 <select id="attendance" name="attendance" class="select-text" required>
@@ -107,8 +101,7 @@
                 </select>
                 <br>
 
-                <!-- Checkboxes for betting sites
-        -->
+                <!-- Checkboxes for betting sites -->
                 <p>Which betting sites do you use?</p>
                 <label id="bet365">Bet 365</label>
                 <input type="checkbox" id="bet365" name="bet365" value="yes">
@@ -136,7 +129,6 @@
             </form>
         </section>
     </main>
-
 
     <!-- Footer -->
     <footer class="footer-contact">
