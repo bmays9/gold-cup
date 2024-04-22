@@ -246,7 +246,6 @@ main {
 }
 
 .block-of-text p {
-    
     font-size: 16px;
 }
 
@@ -333,7 +332,7 @@ main {
 /* Media Query: mobile phones and larger - 476px and upwards*/
 @media screen and (min-width: 476px) {
 
-#race-features li {
+    #race-features li {
         margin-bottom: 7px;
 }
 
@@ -395,9 +394,41 @@ main {
     }
 
 #race-features li {
-        margin-bottom: 20px;
-        font-size: 20px;
+     margin-bottom: 20px;
+     font-size: 20px;
 }
 
+/*.side-padding {
+    padding: 0 15%;
+} */
+
+/* Align form centrally */
+
+#enter-competition {
+    margin: 0 15%;
+    padding: 10px 10% 10px 15%;
+}
 }
 
+/* Media Query: laptops and larger 990px and upwards*/
+@media screen and (min-width: 990px) {
+
+    .wide-screen-margin {
+        margin: 0 22%;
+    }
+
+    #enter-competition {
+    margin: 0 21%;
+    }
+}
+
+/* Media Query: desktops and larger 1275px and upwards*/
+@media screen and (min-width: 1275px) {
+    .wide-screen-margin {
+        margin: 0 26%;
+        }
+
+    #enter-competition {
+        margin: 0 25%;
+    }
+    }
