@@ -209,8 +209,6 @@ main {
     color: saddlebrown;  /* Bronze colour to indicate 3rd place */
 }
 
-
-
 .rest-of-result {
     margin: 0 auto;
 }
@@ -225,7 +223,6 @@ main {
 /* Video Page*/
 
 /* Video content */
-
 
 .video-content {                /* covers the text and the video combined */
     display: flex;
@@ -319,16 +316,17 @@ main {
     min-width:140px;
     order: 99;
     padding: 2px;
-
 }
 
 .footer-contact a {
     padding: 3px;
     color: black;
     font-size: 10px;
-        
 }
 
+.footer-contact i {
+    font-size: 16px;
+}
 
 /* Media Query: mobile phones and larger - 476px and upwards*/
 @media screen and (min-width: 476px) {
