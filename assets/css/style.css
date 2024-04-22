@@ -41,6 +41,8 @@ th, td {
 /* anchors */
 a {
     text-decoration: none;
+    color: rgb(64, 130, 109);
+    font-weight: 500;
 }
 
 /* Header Section - Main headline and Nav Bar*/
