@@ -388,9 +388,9 @@ main {
 /* Media Query: tablets and larger 769px and upwards*/
 @media screen and (min-width: 768px) {
 
-    .footer-contact {
-        height: 140px;
-    }
+.footer-contact {
+    height: 140px;
+}
 
 #race-features li {
      margin-bottom: 20px;
@@ -427,6 +427,14 @@ main {
     #race-features li {
         margin-bottom: 30px;
         font-size: 24px;
+    }
+
+    /* Prevent year headings filling the whole screen */
+    #videos .year {
+        margin: 0 15%;
+        font-size: 34px;
+        height: 42px;
+        line-height: 42px;
     }
 }
 
