@@ -83,6 +83,7 @@ nav a {
     width: 34%; /* slightly larger and ensures 100% coverage*/
     background-color: rgb(64, 130, 109);
     color: whitesmoke;
+    height: 100%;
 }
 
 /* hover over anchor */
