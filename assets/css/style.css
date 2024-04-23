@@ -148,6 +148,30 @@ main {
     object-fit: contain;
 }
 
+/* Next Race 2025 Section */
+
+.next-event {
+    display: flex;
+    background: url("../images/crowd-img.png") no-repeat center center/cover;
+    width: 90%;
+    margin: 15px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.next-event div {
+    background-color: rgb(255,255,255,0.85);
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.next-event h3 {
+    font-size: 150%;
+    color: rgb(64,130,109);
+}
+
 /* Race Results*/
 
 .race-details {
