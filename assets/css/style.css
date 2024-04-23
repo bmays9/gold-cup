@@ -39,10 +39,17 @@ th, td {
 }
 
 /* anchors */
+
+/* Internal link */
 a {
     text-decoration: none;
     color: rgb(64, 130, 109);
     font-weight: 500;
+}
+
+/* External link */
+.external-a {
+    color: rgb(111, 78, 55, 0.9);
 }
 
 /* Header Section - Main headline and Nav Bar*/
@@ -95,10 +102,6 @@ nav a:hover{
 
 
 /* Main Content */
-
-main {
-             
-}
 
 /* Year Headers */
 .year {
