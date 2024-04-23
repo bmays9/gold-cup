@@ -403,7 +403,12 @@ main {
     padding: 0 15%;
 } */
 
+
 /* Align form centrally */
+
+.wide-screen-margin {
+        margin: 0 15%;
+}
 
 #enter-competition {
     margin: 0 15%;
@@ -419,17 +424,18 @@ main {
     }
 
     #enter-competition {
-    margin: 0 21%;
+        margin: 0 21%;
     }
 }
 
 /* Media Query: desktops and larger 1275px and upwards*/
 @media screen and (min-width: 1275px) {
     .wide-screen-margin {
-        margin: 0 26%;
+        margin: 0 30vw;
         }
 
     #enter-competition {
-        margin: 0 25%;
+        margin: 0 25vw;
+        padding: 10px 16% 10px 10%;
     }
     }
