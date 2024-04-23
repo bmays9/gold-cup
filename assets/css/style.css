@@ -102,11 +102,6 @@ main {
 
 /* Year Headers */
 .year {
-    /* XXXX Remember to delete unwanted images*/
-    background-image: linear-gradient(to right, #00b09b, #96c93d);
-    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
-    background-image: linear-gradient(to right, #2c7744, #5a3f37);
-    background-image: linear-gradient(to right, #00b09b, #96c93d);
     background-image: linear-gradient(to right, rgb(64,130,109), #96c93d);
     height: 35px;
     line-height: 35px;
@@ -161,7 +156,7 @@ main {
     margin: 0 0 25px;
 }
 
-#race-info {
+.race-info {
     padding: 6px 4px 15px;
 }
 
