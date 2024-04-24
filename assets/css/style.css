@@ -385,6 +385,10 @@ nav a:hover{
         margin-bottom: 10px;
     }
 
+    .race-details {
+        text-align: center;
+    }
+
     /* Displaying table column Dist that is hidden on smaller screen*/
     /* Code taken and adjusted from https://stackoverflow.com/questions/5440657/how-to-hide-columns-in-html-table */
     .rest-of-result tr > *:nth-child(3) {
