@@ -121,8 +121,15 @@ nav a:hover{
     width: 100%;
     justify-content: center;
     text-align: center;
+    align-items: stretch;
+}
+
+#race-features {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
 
 /* Race Features */
 #race-features {
@@ -156,8 +163,8 @@ nav a:hover{
 .next-event {
     display: flex;
     background: url("../images/crowd-img.png") no-repeat center center/cover;
-    width: 90%;
-    margin: 15px auto;
+    width: 100%;
+    margin: 0;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -165,13 +172,13 @@ nav a:hover{
 .next-event div {
     background-color: rgb(255,255,255,0.85);
     width: 100%;
-    padding: 50px;
+    padding: 40px 10%;
     text-align: center;
 
 }
 
 .next-event h3 {
-    font-size: 150%;
+    font-size: 190%;
     color: rgb(64,130,109);
 }
 
