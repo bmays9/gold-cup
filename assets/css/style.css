@@ -355,7 +355,8 @@ nav a:hover{
 .footer-contact a {
     padding: 3px;
     color: black;
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: 800;
 }
 
 .footer-contact i {
