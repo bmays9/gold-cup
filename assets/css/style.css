@@ -466,6 +466,10 @@ nav a:hover{
         font-size: 24px;
     }
 
+    #places {
+        padding: 0 28%; /* brings the 2nd and 3rd place horse details more to the centre */
+    }
+
     /* Prevent year headings filling the whole screen */
     #videos .year {
         margin: 0 15%;
