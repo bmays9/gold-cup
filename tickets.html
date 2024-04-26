@@ -35,111 +35,111 @@
         </div>
         <!-- Nav Bar links -->
         <nav>
-            <a href="index.html">Home</a>     
+            <a href="index.html">Home</a>
             <a href="videos.html">Race Videos</a>
             <a href="tickets.html" class="active-page">Win Tickets</a>
         </nav>
     </header>
 
     <main>
-        <!-- Page Subheading -->
-        <div class="page-subheading">
-            <h2>Win Tickets to Gold Cup Day! </h2>
-        </div>
-        
-        <!-- Description of the competition and prizes on offer -->
-        <div class="block-of-text side-padding wide-screen-margin" >
-            <p>To celebrate the launch of our new website we are giving away two pairs of tickets to Cheltenham Gold Cup day 2025!</p>
-            <br>
-            <p>All you have to do to enter our free draw is to submit the completed form below.</p>
-            <br>
-            <p>Prize winners will be announced on 10th January 2025.</p>
-            <br>
-        </div>
+            <!-- Page Subheading -->
+            <div class="page-subheading">
+                <h2>Win Tickets to Gold Cup Day! </h2>
+            </div>
 
-        <!-- Form section for competion entry -->
-        <section id="enter-competition" class="side-padding">
-            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
-                <!-- action address taken from CodeInstitute Love Running walkthrough-->
-                <h4 class="align-center">Submit the form below to enter.</h4>
+            <!-- Description of the competition and prizes on offer -->
+            <div class="block-of-text side-padding wide-screen-margin">
+                <p>To celebrate the launch of our new website we are giving away two pairs of tickets to Cheltenham Gold Cup day 2025!</p>
                 <br>
-                <p class="small-text-note align-right">* indicates mandatory field</p>
-                
-                <!-- Name Inputs validation:        required -->
-                <!-- minimum 2 characters on last name so input of only one letter is not permitted.    -->
-                <!-- maximum of 20 characters name fields to limit field size required to process       -->
-                <div class="align-right">
-                    <label for="first-name">* First Name:</label>
-                    <input name="first-name" id="first-name" type="text" class="input-text" required maxlength="20">
+                <p>All you have to do to enter our free draw is to submit the completed form below.</p>
+                <br>
+                <p>Prize winners will be announced on 10th January 2025.</p>
+                <br>
+            </div>
+
+            <!-- Form section for competion entry -->
+            <section id="enter-competition" class="side-padding">
+                <form id="signup-form" action="entered.html" method="get">
+                    <!-- action address taken from CodeInstitute Love Running walkthrough-->
+                    <h4 class="align-center">Submit the form below to enter.</h4>
                     <br>
-                    <label for="last-name">* Last Name:</label>
-                    <input name="last-name" id="last-name" type="text" class="input-text" required minlength="2" maxlength="20">
-                    <br>
-                    <!-- Email input Validation:        required        Minimum of 5 characters and email format-->
+                    <p class="small-text-note align-right">* indicates mandatory field</p>
 
-                    <label for="first-name">* E-mail Address:</label>
-                    <input name="email" id="email" type="email" class="input-text" required minlength="5">
-                    <br>
+                    <!-- Name Inputs validation:        required -->
+                    <!-- minimum 2 characters on last name so input of only one letter is not permitted.    -->
+                    <!-- maximum of 20 characters name fields to limit field size required to process       -->
+                    <div class="align-right">
+                        <label for="first-name">* First Name:</label>
+                        <input name="first-name" id="first-name" type="text" class="input-text" required maxlength="20">
+                        <br>
+                        <label for="last-name">* Last Name:</label>
+                        <input name="last-name" id="last-name" type="text" class="input-text" required minlength="2" maxlength="20">
+                        <br>
+                        <!-- Email input Validation:        required        Minimum of 5 characters and email format-->
 
-                    <!-- Phone number input Validation:        Minimum of 8 characters -->
+                        <label for="first-name">* E-mail Address:</label>
+                        <input name="email" id="email" type="email" class="input-text" required minlength="5">
+                        <br>
 
-                    <label for="phone">Phone Number:</label>
-                    <input name="phone" id="phone" type="text" class="input-text" minlength="8">
-                    <br>
-               
-                <!-- Attendance input Validation:    required -->
+                        <!-- Phone number input Validation:        Minimum of 8 characters -->
 
-                <label for="attendance">* How many times did you attend a racecourse in the past 12 months?</label>
-                <select id="attendance" name="attendance" class="select-text" required>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5-9">5-9</option>
-                    <option value="10+">10+</option>
-                </select>
+                        <label for="phone">Phone Number:</label>
+                        <input name="phone" id="phone" type="text" class="input-text" minlength="8">
+                        <br>
+
+                        <!-- Attendance input Validation:    required -->
+
+                        <label for="attendance">* How many times did you attend a racecourse in the past 12 months?</label>
+                        <select id="attendance" name="attendance" class="select-text" required>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5-9">5-9</option>
+                            <option value="10+">10+</option>
+                        </select>
+                        <br>
+
+                        <!-- Checkboxes for betting sites -->
+                        <p>Which betting sites do you use?</p>
+                        <label id="bet365">Bet 365</label>
+                        <input type="checkbox" id="bet365" name="bet365" value="yes">
+                        <br>
+                        <label id="paddy">Paddy Power</label>
+                        <input type="checkbox" id="paddy" name="paddypower" value="yes">
+                        <br>
+                        <label id="sky">Sky Bet</label>
+                        <input type="checkbox" id="sky" name="skybet" value="yes">
+                        <br>
+                        <label id="betfair">Betfair</label>
+                        <input type="checkbox" id="betfair" name="betfair" value="yes">
+                        <br>
+                        <label id="coral">Coral</label>
+                        <input type="checkbox" id="coral" name="coral" value="yes">
+                        <br>
+
+                        <!-- Other option no validation -->
+
+                        <label for="other-bet">Other - please specify:</label>
+                        <input name="other-bet" id="other-bet" type="text" class="input-text">
+                        <br>
+                        <button type="submit" id="submit-entry-button">Submit Entry</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-contact">
+            <div>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Check out my page on X (opens in a new tab)">Follow me on <i class="fa-brands fa-x-twitter"></i> for <strong>even more</strong> racing content.</a>
                 <br>
-
-                <!-- Checkboxes for betting sites -->
-                <p>Which betting sites do you use?</p>
-                <label id="bet365">Bet 365</label>
-                <input type="checkbox" id="bet365" name="bet365" value="yes">
                 <br>
-                <label id="paddy">Paddy Power</label>
-                <input type="checkbox" id="paddy" name="paddypower" value="yes">
-                <br>
-                <label id="sky">Sky Bet</label>
-                <input type="checkbox" id="sky" name="skybet" value="yes">
-                <br>
-                <label id="betfair">Betfair</label>
-                <input type="checkbox" id="betfair" name="betfair" value="yes">
-                <br>
-                <label id="coral">Coral</label>
-                <input type="checkbox" id="coral" name="coral" value="yes">
-                <br>
-
-                <!-- Other option no validation -->
-
-                <label for="other-bet">Other - please specify:</label>
-                <input name="other-bet" id="other-bet" type="text" class="input-text">
-                <br>
-                <button type="submit" id="submit-entry-button">Submit Entry</button>
-                 </div>
-            </form>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer-contact">
-        <div>
-        <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Check out my page on X (opens in a new tab)">Follow me on <i class="fa-brands fa-x-twitter"></i> for <strong>even more</strong> racing content.</a>
-        <br>
-        <br>
-        <i class="fa-brands fa-x-twitter"></i>
-        </div>
-    </footer>
-
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </footer>
+    
     <!-- Font awesome kit javascript-->
     <script src="https://kit.fontawesome.com/779ba46942.js" crossorigin="anonymous"></script>
 </body>
