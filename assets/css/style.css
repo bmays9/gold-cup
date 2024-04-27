@@ -44,6 +44,10 @@ th,td {
     /* left , right and bottom padding for table cells */
 }
 
+iframe {
+    border-style: none;
+}
+
 /* anchors */
 
 /* Internal link */
