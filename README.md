@@ -102,7 +102,8 @@ Code Institute Love Running project walkthrough: Used the initial commit for the
 https://stackoverflow.com/questions/5440657/how-to-hide-columns-in-html-table: Helped with code for hiding the table column in results section.\
 https://teamtreehouse.com/community/how-to-center-just-the-content-and-stretch-the-blue-background!: Helped with justifying text in the About results section.\
 https://github.com/kb5991/film-quiz/blob/main/README.md: Used as an example ReadMe file for reference.\
-
+https://www.sportinglife.com/racing/results/2024-03-15/cheltenham/777267/boodles-cheltenham-gold-cup-chase-grade-1-gbb-race: Race results taken from Sporting Life website.\
+You Tube: Provided video content for race replays on Video page.
 
 ## Testing
 
@@ -159,6 +160,6 @@ The website was tested by users on the following devices:
 I deployed my website early on Github pages
 
 
-## Credits
 
- - Race results taken from the sporting life website https://www.sportinglife.com/racing/results/2024-03-15/cheltenham/777267/boodles-cheltenham-gold-cup-chase-grade-1-gbb-race
+
+
