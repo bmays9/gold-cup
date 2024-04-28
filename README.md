@@ -78,34 +78,30 @@ The following features will be added to the page in future:
 
 ## Technologies Used
 
-Github: For version control, site hosting and for deployment
-VS Code: The IDE I used to wrote my code, commit and push changes to Github.
-Codeinstitute: I used the CodeInstitute template to initiate the project in Github.
-HTML 5: Coding language used for my website.
-CSS: Used to style my wesbite.
-DevTools: Used for testing my sire at all stages of the project.
-Google Fonts: Imported Kalit and Roboto fonts to style my website.
-Font Awesome: Used for all icons on the website main pages.
-Favicon: Used to import the icons for use in the title only.
-Pexels: All pictures were sourced from Pexels and are free to use.
-TinyPNG: Used to compress images for website optimsation.
-CloudConverter: Used to convert images to PNG and Webp format.
-W3C Markup Validation Service - used to validate HTML code.
-W3C CSS Validation Service - used to validate CSS code.
-Chrome Lighthouse - used to generate Lighthouse reports.
+Github: For version control, site hosting and for deployment.\
+VS Code: The IDE I used to wrote my code, commit and push changes to Github.\
+Codeinstitute: I used the CodeInstitute template to initiate the project in Github.\
+HTML 5: Coding language used for my website.\
+CSS: Used to style my wesbite.\
+DevTools: Used for testing my sire at all stages of the project.\
+Google Fonts: Imported Kalit and Roboto fonts to style my website.\
+Font Awesome: Used for all icons on the website main pages.\
+Favicon: Used to import the icons for use in the title only.\
+Pexels: All pictures were sourced from Pexels and are free to use.\
+TinyPNG: Used to compress images for website optimsation.\
+CloudConverter: Used to convert images to PNG and Webp format.\
+W3C Markup Validation Service - used to validate HTML code.\
+W3C CSS Validation Service - used to validate CSS code.\
+Chrome Lighthouse - used to generate Lighthouse reports.\
 
 ## Credits and References
 
-Makeuseof.com: Used for color gradient suggestions. 
-Code Institute Love Running project walkthrough: Consulted this project for screen size defaults for responsive design. 
-Code Institute Love Running project walkthrough: Used the initial commit for the first HTML structure.
-https://stackoverflow.com/questions/5440657/how-to-hide-columns-in-html-table: Helped with code for hiding the table column in results section.
-https://teamtreehouse.com/community/how-to-center-just-the-content-and-stretch-the-blue-background!: Helped with justifying text in the About results section.
-
-
-
-
-
+Makeuseof.com: Used for color gradient suggestions.\ 
+Code Institute Love Running project walkthrough: Consulted this project for screen size defaults for responsive design. \
+Code Institute Love Running project walkthrough: Used the initial commit for the first HTML structure.\
+https://stackoverflow.com/questions/5440657/how-to-hide-columns-in-html-table: Helped with code for hiding the table column in results section.\
+https://teamtreehouse.com/community/how-to-center-just-the-content-and-stretch-the-blue-background!: Helped with justifying text in the About results section.\
+https://github.com/kb5991/film-quiz/blob/main/README.md: Used as an example ReadMe file for reference.\
 
 
 ## Testing
