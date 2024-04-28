@@ -4,7 +4,7 @@ This page is for horse racing fans and celebrates the Cheltenham Gold Cup, a hor
 
 This site is targetted for horse racing fans who have knowledge of the Cheltenham Gold Cup.
 
-![Responsive website example image](assets/images/responsive.png)
+![Responsive website example image](assets/images/rm-amiresponsive.png)
 
 ## User Expectations
 
