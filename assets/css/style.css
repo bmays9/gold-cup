@@ -83,7 +83,7 @@ nav {
     width: 100%;
     min-width: 210px;
     height: 34px;
-    background-color: #F6F6F6;
+    background-color: #F9F9F9;
 }
 
 /* Nav Bar Links  */
@@ -97,18 +97,18 @@ nav {
     }
 
     /* hover over anchor */
-    nav a:hover {
-        background-color: darkgrey;
-        color: whitesmoke;
-        height: 100%;
-    }
+        nav a:hover {
+            background-color: rgb(111, 78, 55, 0.9);
+            color: #FFFFFF;
+            height: 100%;
+        }
 
 /* active page link */
 .active-page {
     width: 34%;
     /* slightly larger and ensures 100% coverage*/
     background-color: rgb(64, 130, 109);
-    color: whitesmoke;
+    color: #FFFFFF;
     height: 100%;
 }
 
@@ -121,7 +121,7 @@ nav {
     line-height: 35px;
     letter-spacing: 2px;
     text-align: center;
-    color: whitesmoke;
+    color: #FFFFFF;
     vertical-align: middle;
 }
 
@@ -145,7 +145,7 @@ nav {
 #race-features {
     width: 40%;
     font-size: 12px;
-    background-image: radial-gradient(circle, whitesmoke, rgb(64, 130, 109, 0.6), rgb(64, 130, 109, 0.3));
+    background-image: radial-gradient(circle, #FFFFFF, rgb(64, 130, 109, 0.5), rgb(64, 130, 109, 0.2));
     margin: 0 15px;
 }
 
@@ -317,7 +317,7 @@ nav {
     height: 1.3rem;
     border-radius: 3px;
     border: 1pt solid rgb(111, 78, 55);
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     margin-bottom: 10px;
     padding: 1px 4px;
 }
@@ -327,7 +327,7 @@ nav {
     height: 1.3rem;
     border-radius: 3px;
     border: 1pt solid rgb(111, 78, 55);
-    background-color: whitesmoke;
+    background-color: #FFFFFF;
     margin-bottom: 10px;
     padding: 1px 4px;
 }
