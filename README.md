@@ -18,6 +18,8 @@ This site is targetted for horse racing fans who have knowledge of the Cheltenha
 
 The colour scheme for the website was chosen to be simple and aligned with the familiar colours associated with horseracing - green and brown. 
 
+![colour scheme image](assets/images/rm-colours.png)
+
 ## Typography
 
 I have chosen to use Kanit from Google fonts for the headers and Roboto for the main text. I wanted a clean and simple font for the main body text with a second font to add some more interesting style to the main page header and section headings.
@@ -83,6 +85,7 @@ VS Code: The IDE I used to wrote my code, commit and push changes to Github.\
 Codeinstitute: I used the CodeInstitute template to initiate the project in Github.\
 HTML 5: Coding language used for my website.\
 CSS: Used to style my wesbite.\
+Javascript: Use to import Font Awesome kit.\
 DevTools: Used for testing my sire at all stages of the project.\
 Google Fonts: Imported Kalit and Roboto fonts to style my website.\
 Font Awesome: Used for all icons on the website main pages.\
@@ -109,13 +112,13 @@ You Tube: Provided video content for race replays on Video page.
 
 ### Validator Testing
 
-1. WC3 HTML Validator used to validate the HTML 5 code written on all pages of my website - no errors or warnings found.
- - ![HTML Validation results image](assets/images/rm-htmlvalidator.png)
+1. WC3 HTML Validator used to validate the HTML 5 code written on all pages of my website - no errors or warnings found.\
+ ![HTML Validation results image](assets/images/rm-htmlvalidator.png)
 
-2. Jigsaw CSS Validator used to validate the CSS code written for my website - no errors or warnings found.
+2. Jigsaw CSS Validator used to validate the CSS code written for my website - no errors or warnings found.\
 - ![CSS Validation results image](assets/images/rm-cssvalidator.png)
 
-3.  Google Chrome's Lighthouse Developer Tool used to analyse the performance and accessibility measures of my website.
+3.  Google Chrome's Lighthouse Developer Tool used to analyse the performance and accessibility measures of my website.\
 
 Index page:![Lighthouse Validation results for index page image](assets/images/rm-lighthouse-index.png)
 
@@ -124,6 +127,12 @@ Videos page:![Lighthouse Validation results for index page image](assets/images/
 Win Tickets page:![Lighthouse Validation results for index page image](assets/images/rm-lighthouse-tickets.png)
 
 Competition Entry / Form submission page:![Lighthouse Validation results for index page image](assets/images/rm-lighthouse-entered.png)
+
+4. WAVE Accessibility Tool
+
+The website has been fully checked with the WAVE tool and passed validation with no errors.
+![WAVE Validation results image](assets/images/rm-wave-index.png)
+   
   
 ### Device Testing
 
@@ -154,6 +163,9 @@ The website was tested by users on the following devices:
     -  Pass
   - User should receive visual confirmation of their entry when form is completed successfully.
     - Pass
+   
+### Fixes
+
       
 ## Deployment
 
