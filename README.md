@@ -51,7 +51,7 @@ I have chosen to use Kanit from Google fonts for the headers and Roboto for the 
 
 - __Footer__
 The footer provides a consistent image across all pages and provides the user information of how to follow the website creator on social media. The X logo is visible and it's presence gives the user confidence 
-  - ![2024 results image](assets/images/rm-footer.png)
+  - ![Footer image](assets/images/rm-footer.png)
 
 - __Race Videos__
   - This page presents the user with the race videos for a number of previous renewals. The videos are embedded from Youtube and displayed with a brief description of that race. The videos contain user controls and are not automatically played when the page lods.
@@ -99,8 +99,8 @@ Chrome Lighthouse - used to generate Lighthouse reports.\
 
 ## Credits and References
 
-Makeuseof.com: Used for color gradient suggestions.\ 
-Code Institute Love Running project walkthrough: Consulted this project for screen size defaults for responsive design. \
+Makeuseof.com: Used for color gradient suggestions.\
+Code Institute Love Running project walkthrough: Consulted this project for screen size defaults for responsive design.\
 Code Institute Love Running project walkthrough: Used the initial commit for the first HTML structure.\
 https://stackoverflow.com/questions/5440657/how-to-hide-columns-in-html-table: Helped with code for hiding the table column in results section.\
 https://teamtreehouse.com/community/how-to-center-just-the-content-and-stretch-the-blue-background!: Helped with justifying text in the About results section.\
