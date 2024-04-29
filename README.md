@@ -18,7 +18,7 @@ This site is targetted for horse racing fans who have knowledge of the Cheltenha
 
 The colour scheme for the website was chosen to be simple and aligned with the familiar colours associated with horseracing - green and brown. 
 
-![colour scheme image](assets/images/rm-colours)
+![colour scheme image](assets/images/rm-colours.png)
 
 ## Typography
 
