@@ -60,7 +60,7 @@ The footer provides a consistent image across all pages and provides the user in
   - ![Race Videos image](assets/images/rm-videos.png)
 
  - __Competition__
-  - This page offers users a chance to win tickets to attend the next race. The user is given instructions to complete and submit the form to enter, and details of how and when they will be notified if they win. 
+   - This page offers users a chance to win tickets to attend the next race. The user is given instructions to complete and submit the form to enter, and details of how and when they will be notified if they win. 
   - ![Win Tickets image](assets/images/rm-tickets.png)
   
     - The form contains input validation to ensure the user has submitted data in the mandatory fields.
@@ -70,7 +70,7 @@ The footer provides a consistent image across all pages and provides the user in
         - Phone Number: Optional, if entered must contain minimum 
 
  - __Competition Entry__
-  - This page confirms to the user that they have successfully completed the form and have entered the competition. 
+   - This page confirms to the user that they have successfully completed the form and have entered the competition. 
 
 ### Features for future development
 
